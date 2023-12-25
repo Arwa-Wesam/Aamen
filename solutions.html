@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>solutions that help you</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    
+    body {
+      background-color: #b195fa;
+      font-family: 'Cairo', serif;
+      text-align: right;
+       
+        }
+        .navbar {
+            background-color: #b195fa;
+            color: #016A70;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 2px;
+            z-index: 999;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: top 0.3s; /* Add smooth transition effect */
+          }
+          .navbar-logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 2em;
+            
+          }
+          
+          .navbar-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-left: 30px;
+            display: flex;
+          }
+          
+          .navbar-links li {
+            margin-left: 20px;
+          }
+          
+          .navbar-links a {
+            text-decoration: none;
+            color: #120440;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          .navbar-links a:hover {
+            border-bottom: 2px solid #120440;
+          }
+        .container {
+            display: flex;
+            align-items: right;
+            justify-content: right;
+        
+        }
+        
+        
+        
+        img{
+            height: 200px;
+            width: 400px;
+        }
+        .img1{
+            height: auto;
+            width: 80%;
+            align-self: center;
+        }
+       
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            width: 100%;
+        }
+       
+        button{
+            justify-self: center;
+            text-decoration: none;
+            background-color: white;
+            font-size: 1.2em;
+            padding: 5px;
+            border: 0;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100px;
+            align-self: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .right-column{
+            margin-left: 50px;
+        }
+        a{
+            font-size: 1.5em; 
+        }
+        .second{
+            height: 400px;
+        }
+       
+          
+          .container2 {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            max-width: 1000px;
+            width: 100%;
+          }
+          
+          .box {
+            width: 45%;
+            height: fit-content;
+            background-color: #120440;
+            margin-bottom: 20px;
+            padding: 20px;
+            color: #E3DFDC;
+            border-radius: 5px;
+            text-align: right;
+          }
+          
+          .box h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          
+          .box h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          #links{
+            background-color:#E3DFDC;
+            color: black;
+          }
+          @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .right-column {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .left-column {
+                width: 100%;
+                text-align: center;
+            }
+
+            .quiz {
+                width: 80%;
+            }
+
+            .img1 {
+                height: auto;
+                width: 100%;
+            }
+
+            .second {
+                height: auto;
+                width: 100%;
+            }
+        }
+        .end {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html" > <img src="aamenlogo.png" alt="لوجو الموقع"></a>
+    </div>
+    <ul class="navbar-links">
+        <li><a href="index.html#section4" target="_blank">مساعدة و دعم</a></li>
+        <li><a href="index.html#section5" target="_blank">قصص ملهمة </a></li>
+        <li><a href="vr.html" target="_blank">تعلم بالواقع المعزز و الافتراضى </a></li> 
+        <li><a href="courses - Copy.html" target="_blank">كورسات مفيدة</a></li> 
+        <li><a href="index.html#section2" target="_blank">مفاهيم مهمة</a></li>
+        <li><a href="audio.html" target="_blank">بودكاست احنا معاك</a></li>
+    </ul>
+</nav>
+    <div class="container">
+       <img class="img1"src="solutions1.png" alt="Your Image">
+       <div class="container2">
+        <div class="box">
+          <h2>لو اتعرضت للتنمر</h2>
+          <h3> الإبلاغ عن التنمر</h3>
+          <p>    الكثير من الأطفال لا يبلغون عن التنمر عبر الإنترنت خوفًا من الإحراج.
+             إذا اعتقدت أن طفلك يتعرض للتنمر، فتأكد من تشجيعه على إخبارك أو أحد الكبار الذي يثق بهم.</p>
+          <h3>الحفاظ على الأدلة</h3>
+          <p> يجب الاحتفاظ بجميع الرسائل والمنشورات التي تثبت التنمر، بما في ذلك التقاط الصور أو لقطات الشاشة وتسجيل الوقت والتاريخ.
+           </p>
+          <h3>عدم التجاوب</h3>
+          <p>المراهقون الذين يشهدون التنمر يجب عليهم الإبلاغ عن المشكلة للأصدقاء أو الأسرة أو المعلمين.
+            يُفضل على المتنمرين تجاهل الهجمات بدلاً من الرد عليها، حيث يهدف المتنمر إلى جلب الانتباه والرد العاطفي.
+        </p>
+          <h3>التعرف على العلامات</h3>
+          <p> يمكن أن تشمل العلامات فقدان الاهتمام في الأنشطة المفضلة وتغييرات في النوم أو الأكل.
+            إذا كان الولد هو المعتدي، فقد يظهر غضبًا شديدًا إذا حُجبت امتيازاته.
+        </p>
+          <h3>المحافظة على أمن البيانات</h3>
+          <p>   يجب تقليل الصور والمعلومات الشخصية التي ينشرها الأطفال عبر الإنترنت وضبط إعدادات الخصوصية.
+           ينبغي على المراهقين تعيين ملفات التعريف الشخصية إلى "خاصة" وتجاهل الرسائل من الأشخاص الغرباء.
+        </p>
+          <h3>التحذير من التحول إلى المتنمر</h3>
+          <p>  يجب على الأهل تثقيف الأطفال حول احترام خصوصية الآخرين على الإنترنت وعدم الانجرار وراء سلوك المتنمر.
+        </p>
+          <h3>التكاتف للحلول طويلة المدى</h3>
+          <p> يُشجع على البحث عن حلول قانونية وقائية لمكافحة التنمر الإلكتروني وحماية الأطفال.
+            يجب على المتنمرين أن يدركوا أن أفعالهم تحمل عواقب ويجب عليهم العيش بدون خوف.
+        </p>
+          
+          <p>تجنب التنمر الإلكتروني يتطلب تحالف جهود الأهل والمعلمين والمجتمع لحماية الأطفال والمراهقين من هذا السلوك الضار..</p>
+          
+        </div>
+        <div class="box">
+          <h2>لو اتعرضت للابتزاز</h2>
+          <h3> مقاومة الرغبة في التعامل مع المُبتز</h3>
+          <p> يتزايد تأثير المُبتز كلما تفاعلت معه بشكل أكبر، حيث يستخدم ردود الفعل الخاصة بك كدليل على نجاح ابتزازه.
+           تجنب التفاوض أو دفع الفدية، حيث أن هذا قد يمنح المُبتز قوة إضافية ويشجعه على زيادة التهديدات والابتزاز</p>
+          <h3>الاحتفاظ بجميع الاتصالات والرسائل والأدلة</h3>
+          <p> قبل حظر المُبتز، احتفظ بنسخ لجميع الرسائل والاتصالات بينكما عبر وسائل التواصل الاجتماعي أو أي وسيلة أخرى.
+            حافظ على أي مواد مسيئة ذات صلة في مكان آمن بعيداً عن المجرمين الإلكترونيين لديك دليل ملموس يمكن استخدامه في قضيتك.</p>
+          <h3> طلب الدعم من شخص موثوق به لتوثيق الأدلة</h3>
+          <p> احصل على الدعم من أصدقاء أو أقارب موثوقين لتوثيق الأدلة والحصول على النصائح المفيدة والدعم المستمر في مواجهة الابتزاز الإلكتروني.
+        </p>
+          <h3> ضبط إعدادات الخصوصية عبر الإنترنت</h3>
+          <p> حافظ على خصوصيتك عبر الإنترنت بضبط إعدادات الخصوصية لحساباتك على وسائل التواصل الاجتماعي، وارفع درجة الحذر عند حظر المُبتز لتحمي نفسك من فقدان وصولك لبياناتك الشخصية بعد الحظر.
+        </p>
+          <h3> تبليغ الجهات المختصة</h3>
+          <p> في حالات الابتزاز الإلكتروني، يجب عليك تبليغ الجهات المختصة لاتخاذ الإجراءات القانونية المناسبة.</p>
+          <h3> التحدث إلى محامي متخصص</h3>
+          <p>استشر محامي خبير في جرائم الإنترنت لفحص الملابسات بدقة ومتابعة القضية قانونياً، بما في ذلك مقاضاة المُبتز والمطالبة بتعويضات نظير الأضرار والآلام التي تسبب فيها.</p><br><br><br><br><br>
+        </div>
+        <div class="box">
+       <h2>  تعمل ايه لو اتعرضت لهجمة سيبرانية</h2>
+          <h3> الهدوء والتقييم</h3>
+          <p>
+            حافظ على هدوءك ولا تنفعل.
+            قم بتقييم الوضع بشكل سريع ودقيق لفهم نطاق الهجوم.
+        </p>
+          <h3>فصل الجهاز          </h3>
+          <p>
+            قم بفصل الجهاز المتضرر عن الإنترنت فورًا لمنع انتشار الهجوم.</p>
+          <h3> تغيير كلمات المرور</h3>
+          <p>قم بتغيير كلمات المرور الخاصة بجميع حساباتك الرئيسية فورًا</p>
+          <h3>الإبلاغ عن الهجوم</h3>
+          <p>قم بالإبلاغ عن الهجوم إلى الجهات المختصة، مثل مزود الخدمة الإنترنت أو الشركة الأمنية</p>
+          <h3>تحديث البرامج والأمان</h3>
+          <p>
+            تأكد من أن جميع البرامج والأنظمة الخاصة بك محدثة بأحدث التصحيحات والتحديثات الأمان.</p>
+          <h3> تحليل الهجوم</h3>
+          <p>حاول فهم كيف ولماذا حدث الهجوم. هل كان هناك ضعف في الأمان أم أن هناك تصرفات محددة أدت إلى الهجوم؟</p>
+          <h3>استعادة البيانات</h3>
+          <p>قم بمحاولة استعادة أو استبدال البيانات المتضررة من الهجوم</p>
+          <h3> التدريب والوعي</h3>
+          <p>قم بتعزيز مستوى التدريب والوعي الأماني لديك وللمستخدمين الآخرين في منظمتك</p>
+          <h3>لتعاون مع محترفي الأمان</h3>
+          <p>إذا كنت لا تستطيع التعامل مع الهجوم بمفردك، فتعاون مع محترفين في مجال الأمان للمساعدة.</p>
+          <h3>استعادة النظام</h3>
+          <p>
+            بناءً على التحليل، اتخذ الخطوات اللازمة لاستعادة النظام إلى وضعه الطبيعي وتقييم الأثر الكامل للهجوم</p>
+        </div>
+        <div class="box" id="links">
+               <h3> لينكات مهمة ارجعلها</h3>
+               <a href="onlinebullying.html" target="-blank"><p>معلومات اكتر عن التنمر الاليكترونى وطرق الوقاية منه</p></a>
+               <a href="lean.html" target="-blank"><p>معلومات اكتر عن الابتزاز و طرق الوقاية منه</p></a>
+               <a href="fomo.html" target="-blank"><p>معلمومات اكتر عن الامن السيبراني</p></a>
+               <a href="digitalmark.html" target="-blank"><p>تعرف على بيانات المهمة و كيفية الحفاظ عليها</p></a>
+              
+             </div>
+             
+      </div>
+    </div>
+<footer class="end">
+  <p>
+    Copyrights @  
+   <span>Arwa Wesam Elsaid (small creative project) Aamen 2023</span>
+ </p>
+</footer>
+   
+</body>
+</html>
