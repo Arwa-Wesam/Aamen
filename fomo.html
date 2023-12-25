@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>know about cybersecurity</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    body {
+      background-color: #EDF0F2
+;
+      text-align: right;
+       
+        }
+        .navbar {
+            background-color: #EDF0F2;
+            color: #120837;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 20px;
+            z-index: 999;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: top 0.3s; /* Add smooth transition effect */
+          }
+          .navbar-logo img {
+            width: 60px;
+            height: 60px;
+            margin-right: 2em;
+            
+          }
+          
+          .navbar-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-left: 30px;
+            display: flex;
+          }
+          
+          .navbar-links li {
+            margin-left: 20px;
+          }
+          
+          .navbar-links a {
+            text-decoration: none;
+            color: #120837;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          .navbar-links a:hover {
+            border-bottom: 2px solid #120837;
+          }
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+        .left-column {
+            width: 30%;
+            padding: 20px;
+        }
+        .right-column {
+            width: 70%;
+            padding: 20px;
+        }
+
+        .question {
+            font-weight: bold;
+        }
+        img{
+            height: 200px;
+            width: 400px;
+        }
+        .quiz{
+            background-color: #b195fa;
+            padding: 10px;
+            border-radius: 10px;
+            width: 410px;
+            font-size: 0.8em;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 60px;
+        }
+        .quiz h1{
+            text-align: center;
+        }
+        button{
+            justify-self: center;
+            text-decoration: none;
+            background-color: white;
+            font-size: 1.2em;
+            padding: 5px;
+            border: 0;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100px;
+            align-self: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .right-column{
+            margin-left: 50px;
+            width: 700px;
+        }
+        a{
+            font-size: 1.5em;
+            
+        }
+        .second{
+            height: 400px;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .right-column {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .left-column {
+                width: 100%;
+                text-align: center;
+            }
+
+            .quiz {
+                width: 80%;
+            }
+
+            .img1 {
+                height: auto;
+                width: 100%;
+            }
+
+            .second {
+                height: auto;
+                width: 100%;
+            }
+        }
+        .img1{
+            width: 300px;
+            height: auto;
+        }
+        body{
+            font-family: 'Cairo', serif;
+           }
+        .end {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html" > <img src="aamenlogo.png" alt="لوجو الموقع"></a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="index.html#section4" target="_blank">مساعدة و دعم</a></li>
+            <li><a href="index.html#section5" target="_blank">قصص ملهمة </a></li>
+            <li><a href="vr.html" target="_blank">تعلم بالواقع المعزز و الافتراضى </a></li> 
+            <li><a href="courses - Copy.html" target="_blank">كورسات مفيدة</a></li> 
+            <li><a href="index.html#section2" target="_blank">مفاهيم مهمة</a></li>
+            <li><a href="audio.html" target="_blank">بودكاست احنا معاك</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left-column">
+            <div class="quiz">
+                <h1>اختبار قصير</h1>
+                <div class="question">سؤال 1:ما هو الهدف الرئيسي للأمان السيبرانى؟</div>
+                <input type="radio" name="q1" value="a">حماية الأنظمة الرقمية والمعلومات<br>
+                <input type="radio" name="q1" value="b"> تعزيز التواصل الاجتماعي<br>
+                <input type="radio" name="q1" value="c"> حماية النظام البيئي<br>
+                <br>
+                <div class="question">سؤال 2:ما الذي يمكن أن يكون تحديًا رئيسيًا يواجه الأمان السيبراني ؟</div>
+                <input type="radio" name="q2" value="a">تقليل الاستخدام التكنولوجي<br>
+                <input type="radio" name="q2" value="b">الهجمات الإلكترونية المتقدمة<br>
+                <input type="radio" name="q2" value="c"> زيادة الوعي بأمان الإنترنت
+                <br>
+                <br>
+                <div class="question">سؤال 3:ما هي إحدى إجراءات الأمان السيبراني المهمة لحماية النظام؟</div>
+                <input type="radio" name="q3" value="a"> عدم تحديث البرمجيات بانتظام<br>
+                <input type="radio" name="q3" value="b"> السماح بالوصول غير المقيد للبيانات الحساسة
+                <br>
+                <input type="radio" name="q3" value="c"> تدريب المستخدمين على ممارسات الأمان<br>
+                <br>
+                <button onclick="calculateScore()">اجب</button>
+                <div id="result"></div>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="1(1).png" alt="Your Image">
+<h3>الأمن السيبراني هو مجموعة من الممارسات والتقنيات التي تهدف إلى حماية المعلومات والأنظمة الإلكترونية من الهجمات الإلكترونية. حماية البيانات هي عملية حماية البيانات الحساسة من الوصول غير المصرح به أو الاستخدام أو التعديل أو الإفشاء أو التدمير.
+</h3>
+            <img class="img1"src="cyber.jpeg" alt="Your Image">
+            <h3>أساسيات الأمن السيبراني
+                <br>
+                <br>
+                اختيار كلمات مرور قوية,
+                تحديث البرامج باستمرار,
+                تجنب تنزيل البرامج من مصادر غير معروفة,
+                التحقق من هوية المرسل قبل فتح الرسائل الإلكترونية أو النقر على الروابط
+                ,حماية البيانات
+                ,عدم مشاركة المعلومات الشخصية مع الغرباء
+                ,استخدام كلمات مرور مختلفة لكل حساب
+                الحرص على تأمين أجهزة الكمبيوتر والأجهزة المحمولة
+
+                <iframe width="700" height="360" src="https://www.youtube.com/embed/mhKYcCk29sg" title="الامن السيبرانى فيديو تعريفى" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <br>
+                <br>
+
+             <h3>  التحديات التي تواجه الأمن السيبراني:</h3> 
+               <p> الهجمات الإلكترونية المتقدمة: تزداد تقنيات الهجمات تطورًا باستمرار، مما يتطلب تحسين الدفاع السيبراني بشكل مستمر.
+                
+                ازدياد استخدام التكنولوجيا: مع زيادة استخدام التكنولوجيا، يزداد تعقيد تأمين الأنظمة الرقمية.
+                
+                التهديدات الداخلية: لا يقتصر التهديد السيبراني على الهجمات الخارجية، بل قد تأتي التهديدات من داخل المؤسسات أيضًا.</p>
+                
+                أهمية الأمن السيبراني:
+                حماية المعلومات الحساسة: يساعد الأمن السيبراني في الحفاظ على سرية المعلومات ومنع وصول غير المصرح به إليها.
+                
+                ضمان استمرارية الأعمال: يساعد الأمن السيبراني في تقليل تأثير الهجمات وضمان استمرارية العمليات الأساسية للمؤسسات.
+                
+                الحفاظ على سلامة الشبكات: يساعد في تأمين البنية التحتية الرقمية للحفاظ على سلامة الشبكات والأجهزة.
+                
+                <h3>إجراءات الأمن السيبراني:</h3>
+               <p> استخدام برامج الحماية: تثبيت برامج مكافحة الفيروسات وبرامج الجدران النارية للحماية من البرمجيات الخبيثة.
+                
+                تحديث البرمجيات بانتظام: ضمان أن تكون جميع البرمجيات والأنظمة محدثة بأحدث التصحيحات الأمان.
+                
+                توعية المستخدمين: تدريب المستخدمين على ممارسات الأمان السيبراني والتحذير من التصرفات الخطرة.</p>
+                
+                <h3>المستقبل:</h3>
+                <p>تظهر التطورات التكنولوجية المستمرة أهمية متزايدة لمجال الأمن السيبراني. يجب على المؤسسات والأفراد الاستثمار في حلول أمان سيبراني متقدمة للتصدي للتحديات المتزايدة وضمان استدامة العالم الرقمي.
+                
+                باختصار، يمثل الأمن السيبراني أساسًا لضمان سلامة واستقرار العالم الرقمي الحديث، ويتطلب التفاعل المستمر والتحسين المستمر لمواكبة التحديات المتزايدة للأمن السيبراني.</p>
+                
+                
+                
+                
+                
+                
+        </div>
+    </div>
+<footer class="end">
+<p>
+   Copyrights @  
+  <span>Arwa Wesam Elsaid (small creative project) Aamen 2023</span>
+</p>
+</footer>
+    <script>
+        function calculateScore() {
+            const answers = {
+                q1: document.querySelector('input[name="q1"]:checked').value,
+                q2: document.querySelector('input[name="q2"]:checked').value,
+                q3: document.querySelector('input[name="q3"]:checked').value
+            };
+
+            const correctAnswers = {
+                q1: 'a',
+                q2: 'b',
+                q3: 'c'
+            };
+
+            let score = 0;
+
+            for (const question in answers) {
+                if (answers[question] === correctAnswers[question]) {
+                    score++;
+                }
+            }
+
+            const resultElement = document.getElementById('result');
+            resultElement.textContent = `انت حصلت على ${score} نقاط من ثلاثة `;
+        }
+    </script>
+</body>
+</html>
