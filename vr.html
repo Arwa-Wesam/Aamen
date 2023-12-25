@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>VR,AR learning</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+    
+    body {
+      background-color: #120837;
+      font-family: 'Cairo', serif;
+      text-align: right;
+       
+        }
+        .navbar {
+            background-color: #120837;
+            color: #016A70;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px 2px;
+            z-index: 999;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: top 0.3s; /* Add smooth transition effect */
+          }
+          .navbar-logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 2em;
+            
+          }
+          
+          .navbar-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-left: 30px;
+            display: flex;
+          }
+          
+          .navbar-links li {
+            margin-left: 20px;
+          }
+          
+          .navbar-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          .navbar-links a:hover {
+            border-bottom: 2px solid white;
+          }
+        .container {
+            display: flex;
+            align-items: right;
+            justify-content: right;
+        
+        }
+        
+        
+        
+        img{
+            height: 200px;
+            width: 400px;
+        }
+        .img1{
+            height: auto;
+            width: 80%;
+            align-self: center;
+        }
+       
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            width: 100%;
+        }
+       
+        button{
+            justify-self: center;
+            text-decoration: none;
+            background-color: white;
+            font-size: 1.2em;
+            padding: 5px;
+            border: 0;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 100px;
+            align-self: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .right-column{
+            margin-left: 50px;
+        }
+        a{
+            font-size: 1.5em; 
+        }
+        .second{
+            height: 400px;
+        }
+       
+          
+          .container2 {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            max-width: 1000px;
+            width: 100%;
+          }
+          
+          .box {
+            width: 45%;
+            height: fit-content;
+            background-color: #120440;
+            margin-bottom: 20px;
+            padding: 20px;
+            color: #E3DFDC;
+            border-radius: 5px;
+            text-align: right;
+          }
+          
+          .box h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          
+          .box h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          #links{
+            background-color:#E3DFDC;
+            color: black;
+          }
+          @media screen and (max-width: 768px) {
+            .container {
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .right-column {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .left-column {
+                width: 100%;
+                text-align: center;
+            }
+
+            .quiz {
+                width: 80%;
+            }
+
+            .img1 {
+                height: auto;
+                width: 100%;
+            }
+
+            .second {
+                height: auto;
+                width: 100%;
+            }
+        }
+        .end {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.container3 {
+  display: flex;
+}
+
+.box2 {
+  
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 26em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #DBDBDB;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.104);
+}
+
+.box2 img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.4);
+}
+
+.container3.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5d42a3;
+  border-radius: 5px;
+}
+.column{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+ 
+}
+
+.button2{
+  font-size: 15px;
+  background-color: #6C39F0;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.p2{
+  width: fit-content;
+  margin: 10px;
+  font-size: 1em;
+  color: #120837;
+  text-align: right;
+  font-weight: bold;
+}
+.button2{
+  cursor: pointer;
+  transition: transform 0.20s ease-in-out; 
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.104);
+}
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <a href="index.html" > <img src="aamenlogo.png" alt="لوجو الموقع"></a>
+    </div>
+    <ul class="navbar-links">
+        <li><a href="index.html#section4" target="_blank">مساعدة و دعم</a></li>
+        <li><a href="index.html#section5" target="_blank">قصص ملهمة </a></li>
+        <li><a href="vr.html" target="_blank">تعلم بالواقع المعزز و الافتراضى </a></li> 
+        <li><a href="courses - Copy.html" target="_blank">كورسات مفيدة</a></li> 
+        <li><a href="index.html#section2" target="_blank">مفاهيم مهمة</a></li>
+        <li><a href="audio.html" target="_blank">بودكاست احنا معاك</a></li>
+    </ul>
+</nav>
+    <div class="container">
+       <div class="column">
+          <!-- Box 1 -->
+          <div class="box2" id="ar">
+            <img src="29(2).png" alt="Image 1">
+            
+            <p class="p2"> قم بفتح الموقع على جهازك المحمول و استخدم المكعب المدمج</p>
+            <a href="https://edu.cospaces.io/HDD-FEV" target="_blank" class="button2">اضغط هنا</a>
+          </div>
+     
+          <!-- Box 2 -->
+          <div class="box2">
+            <img src="28(4).png" alt="Image 2">
+            
+            <p class="p2">قم بفتح الموقع على جهازك المحمول و استخدم نضارة الواقع الافتراضى</p>
+            <a href="https://edu.cospaces.io/VCY-GXC" target="_blank" class="button2">اضغط هنا</a>
+          </div>
+      
+          <!-- Box 3 -->
+          <div class="box2" style="flex-direction: column;">
+            <img src="28(3).png" alt="Image 3">
+        
+            <p class="p2">قم بفتح الموقع على جهازك المحمول و استخدم نضارة الواقع الافتراضى</p>
+            <a href="https://edu.cospaces.io/VFX-SRE" target="_blank" class="button2">اضغط هنا</a>
+          </div>
+        </div>
+        </div>
+      </div>
+<footer class="end">
+  <p>
+    Copyrights @  
+   <span>Arwa Wesam Elsaid (small creative project) Aamen 2023</span>
+ </p>
+</footer>
+   
+</body>
+</html>
